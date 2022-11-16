@@ -88,6 +88,9 @@ header {
   -ms-flex-align: center;
   align-items: center;
 }
+.item_link:hover {
+  color: red;
+}
 .item_link img {
   margin-left: 0.7rem;
   margin-bottom: 0.5rem;
@@ -363,6 +366,7 @@ input {
   border: none;
   outline: none;
   border-bottom: 1px solid #56593d;
+  background-color: transparent;
 }
 .subcribe {
   padding: 0.1rem 2.5rem;
